@@ -1,0 +1,77 @@
+body{
+  /* rules go here */
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	margin-left: 25px; 
+
+}
+
+nav {
+	border-bottom: 1px solid #dfcdc1;
+	overflow: hidden;
+}
+
+.container {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto 20px;
+}
+
+.header h1 {
+	display: block;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.drawing {
+	background: url("assets/cloud.png") no-repeat;
+	height: 560px;
+	overflow: hidden;
+}
+
+aside {
+	float: left;
+	width: 170px;
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+.form_signup {
+	float: right;
+	margin-right: 50px;
+	text-align: center;
+	width: 370px;
+}
+
+figure.victoria {
+	float: left;
+	height: 490px;
+	width: 393px;
+	background-size: 375px 465px;
+	background: url("assets/vic.png") no-repeat;
+	margin-left: 170px;
+}
+
+footer.victoria {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+
+#foot_bar {
+	border-top: 1px solid #dfcdc1;
+
+}
+
+ul.footerbar li {
+	float: left;
+	list-style: none;
+	margin-top: 15px;
+	margin-left: 10px;
+}
